@@ -7,10 +7,7 @@ const { Footer } = Layout;
 
 const AppFooter = () => {
   return (
-    <div
-      className="main__footer"
-      style={{ background: "var(--background)" }}
-      data-aos="fade-up">
+    <div className="main__footer" style={{ background: "var(--background)" }}>
       <div className="container">
         <Footer className="footer" style={{ padding: 0, background: "none" }}>
           <Row justify="center" align="middle">

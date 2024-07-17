@@ -36,7 +36,7 @@ const Work = () => {
     },
   ];
   return (
-    <div className="work__module" data-aos="fade-up">
+    <div className="work__module">
       <div className="container">
         <h1 className="title__modules">How we work</h1>
       </div>
