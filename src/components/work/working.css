@@ -15,7 +15,7 @@
   align-items: flex-start;
   padding-top: 30px;
   position: relative;
-  background-size: contain;
+  /* background-size: contain; */
 }
 .steps__flex__module {
   display: flex;
@@ -30,7 +30,7 @@
   width: 80px;
 }
 .pos__dots {
-    display: none;
+  display: none;
   position: absolute;
   z-index: -1;
   object-fit: cover;
