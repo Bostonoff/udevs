@@ -53,9 +53,8 @@
   .hero__module {
     margin-bottom: 15px;
   }
-  /* .bg__head {
-    padding: 50px;
-  } */
+}
+@media (max-width: 768px) {
   .right__hero__modules img {
     width: 300px;
   }
