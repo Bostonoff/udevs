@@ -35,6 +35,7 @@
   .main__module {
     flex-wrap: wrap;
     justify-content: center;
+    padding: 50px 0;
   }
   .left__hero__modules {
     justify-items: center;
@@ -56,6 +57,6 @@
     padding: 50px;
   } */
   .right__hero__modules img {
-    width: 400px;
+    width: 300px;
   }
 }

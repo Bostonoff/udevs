@@ -106,6 +106,9 @@
   .title__modules__dev {
     font-size: 7vw;
   }
+  .position__rel__png {
+    width: 60%;
+  }
   .dev__module {
     padding: 16px 0px;
   }
@@ -148,5 +151,4 @@
     font-size: 7vw;
     text-align: center;
   }
-
 }

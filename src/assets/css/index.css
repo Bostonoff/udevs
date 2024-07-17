@@ -222,7 +222,7 @@ li a {
     font-size: 1vw !important;
   }
   .consult__img {
-    width: 300px;
+    width: 250px;
   }
 }
 @media (max-width: 768px) {
