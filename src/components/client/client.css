@@ -1,0 +1,44 @@
+
+.slider__wrapper {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.slider__track {
+  display: flex;
+  width: calc(200%);
+  animation: scroll-left 60s linear infinite;
+}
+.slider__track.reverse {
+  animation: scroll-right 60s linear infinite;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+@keyframes scroll-right {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.card__slider {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+}
+.card__slider img {
+  width: 100%;
+  height: auto;
+  display: block;
+}

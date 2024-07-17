@@ -1,0 +1,79 @@
+.radio__text {
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 600;
+  color: var(--black);
+}
+.ant-radio-inner {
+  width: 20px !important;
+  height: 20px !important;
+}
+.btn__radio {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+}
+.grid__names {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 10px;
+  margin: 20px 0;
+}
+.card__grid__name {
+  width: 100%;
+  height: 90px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  transition: opacity 0.2s linear;
+  border-radius: 5px;
+  background-color: #ccd9ff;
+  cursor: pointer;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+  object-fit: cover;
+  object-position: top;
+  transition: all 0.4s ease-in-out;
+  p {
+    white-space: nowrap;
+    font-size: 11px;
+    line-height: 13px;
+    color: var(--black);
+    margin-top: 5px;
+    width: 100%;
+    max-width: 90px;
+    text-overflow: ellipsis;
+    text-align: center;
+  }
+}
+.card__grid__name img {
+  width: 24px;
+  height: 24px;
+}
+
+.card__grid__name:hover {
+  transform: scale(1.1);
+}
+@media (max-width: 1200px) {
+  .grid__names {
+    grid-template-columns: repeat(10, 1fr);
+  }
+}
+
+@media (max-width: 991px) {
+  .btn__radio {
+    justify-content: center;
+  }
+  .grid__names {
+    grid-template-columns: repeat(8, 1fr);
+  }
+}
+@media (max-width: 768px) {
+  .grid__names {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}

@@ -1,0 +1,52 @@
+.card__module__erp {
+  margin: 20px 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+.erp__flex__module {
+  display: flex;
+  gap: 90px;
+  justify-content: space-between;
+  margin-top: 80px;
+  flex-direction: row-reverse;
+}
+
+.card__module__dev__erp {
+  padding: 10px 20px 10px 10px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  background-color: #e0e8ff;
+}
+.card__module__dev__erp p {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 600;
+  color: var(--black);
+}
+.position__div__erp {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 24px;
+  overflow: hidden;
+}
+@media (max-width: 991px) {
+  .card__module__erp {
+    text-align: center;
+    padding: 10px;
+  }
+  .card__module__erp {
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+  .erp__flex__module {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    margin-top: 10px;
+    gap: 50px;
+  }
+}
